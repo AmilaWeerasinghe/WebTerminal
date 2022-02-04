@@ -40,9 +40,8 @@ aws-region: ap-south-1
 
 id: deploy
 
-run: |
 
-aws deploy create-deployment \
+run: aws deploy create-deployment \
 
 –application-name nodeblog_application \
 
